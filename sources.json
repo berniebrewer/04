@@ -91,24 +91,24 @@
       ]
     },
     {
-      "name": "Source 2 - Tubi",
+      "name": "Source 2 - EPG Guru",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/tubi-scraper/refs/heads/main/tubi_epg.xml",
       "format": "xml",
       "prefix": "TB-",
       "channels": [
-        "400000116",
+        "ESPN2.us12",
         "613761",
         "400000008",
         "400000106"
       ]
     },
     {
-      "name": "Source 3 - For Willow",
-      "url": "https://github.com/BuddyChewChew/My-Streams/raw/refs/heads/main/epgs/Backup-epg.xml.gz",
+      "name": "Source 3 - EPG Guru IP",
+      "url": "https://cdn.epg.guru/7dayiptv/Germany.xml.gz",
       "format": "gz",
-      "prefix": "BCCW-",
+      "prefix": "",
       "channels": [
-        "Willow.Cricket.HD.us2"
+        "111692"
       ]
     },
     {
@@ -119,13 +119,14 @@
       "channels": "*"
     },
     {
-      "name": "Source 5 - open-epg.com India4",
-      "url": "https://www.open-epg.com/files/india1.xml.gz",
+      "name": "Source 5 - EPGenius 37",
+      "url": "https://github.com/ferteque/Curated-M3U-Repository/raw/refs/heads/main/epg37.xml.gz",
       "format": "gz",
-      "prefix": "openpgI1-",
+      "prefix": "",
       "channels": [
-        "B4U Movies.in",
-        "B4U Music.in"
+        "NFLNetwork.us12",
+		"ESPN2.us12",
+        "MSSport(DEL8DE).de2"
       ]
     }
   ]
