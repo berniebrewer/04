@@ -1,12 +1,12 @@
 {
   "sources": [
     {
-      "name": "mitthu786/tvepg - All OTT EPG",
-      "url": "https://avkb.short.gy/epg.xml.gz",
+      "name": "Test",
+      "url": "https://github.com/ferteque/Curated-M3U-Repository/raw/refs/heads/main/epg38.xml.gz",
       "format": "gz",
-      "prefix": "TVEPG_ALL-",
+      "prefix": "",
       "channels": [
-        "2019",
+        "mssport.de",
         "1170",
         "831",
         "655",
@@ -48,7 +48,7 @@
         "ts463"
       ],
       "chennel-ref":[
-        "2019 - globalpunjab",
+        "mssport.de - globalpunjab",
         "1170 - ptcnews",
         " 831 - livingindianews",
         " 655 - news18punjabharyana",
@@ -104,7 +104,7 @@
     },
     {
       "name": "Source 3 - EPG Guru IP",
-      "url": "https://cdn.epg.guru/7dayiptv/Germany.xml.gz",
+      "url": "https://github.com/ferteque/Curated-M3U-Repository/raw/refs/heads/main/epg32.xml.gz",
       "format": "gz",
       "prefix": "",
       "channels": [
