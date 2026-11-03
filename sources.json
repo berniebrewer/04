@@ -1,8 +1,8 @@
 {
   "sources": [
     {
-      "name": "Test",
-      "url": "https://github.com/ferteque/Curated-M3U-Repository/raw/refs/heads/main/epg38.xml.gz",
+      "name": "Source 1 - epgshare_DE1 ",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz",
       "format": "gz",
       "prefix": "",
       "channels": [
@@ -91,35 +91,81 @@
       ]
     },
     {
-      "name": "Source 2 - EPG Guru",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/tubi-scraper/refs/heads/main/tubi_epg.xml",
-      "format": "xml",
-      "prefix": "TB-",
+      "name": "Source 2 - MyOpenEPG",
+      "url": "https://www.open-epg.com/generate/Bfj84FAfU7.xml.gz",
+      "format": "gz",
+      "prefix": "",
       "channels": [
-        "ESPN2.us12",
-        "613761",
-        "400000008",
-        "400000106"
+        "3sat.at",
+        "TopBarca.es",
+        "streamstertv.at",
+		"streamster.ch",
+        "orf3.at",
+		"waidwerk.de",
+        "nitro.de",
+		"13thstreet.at",
+        "nitro.at",
+		"weltderwunder.de",
+		"orfsportplus.at",
+		"rtlshine.de",
+        "shoppingqueen.de",
+		"atv.at",
+        "atv2.at",
+        "MOMENTS.de"
       ]
     },
     {
-      "name": "Source 3 - EPG Guru IP",
+      "name": "Source 3 - epgshare BE",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz",
+      "format": "gz",
+      "prefix": "",
+      "channels": [
+        "111692",
+		"hitradio.OE3.be",
+		"XPLORE.be",
+		"SWR.Fernsehen.BW.HD.be",
+		"Just.Fishing.be",
+		"XPLORE.be",
+		"ProSieben.MAXX.Austria.be",
+		"ANIXE.HD.be",
+		"HÃ–HENRAUSCH.be",
+		"JUST.COOKING.be",
+		"ProSieben.be",
+		"3sat.HD.be",
+		"One.Terra.be",
+		"Welt.be",
+		"One.Terra.be",
+		"DOKUSAT.be",
+		"Radio.Bremen.HD.be"
+      ]
+    },
+    {
+     "name": "Source 4 - epgshare CH",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz",
+      "format": "gz",
+      "prefix": "",
+      "channels": [
+        "111692",
+		"Lilo.TV.ch",
+		"Bergblick.ch",
+		"Servus.TV.ch"
+      ]
+    },
+    {
+      "name": "Source 5 - EPGenius 32",
       "url": "https://github.com/ferteque/Curated-M3U-Repository/raw/refs/heads/main/epg32.xml.gz",
       "format": "gz",
       "prefix": "",
       "channels": [
-        "111692"
-      ]
+        "C+Action.at (src01)",
+		"WAIDTV.de (m3u4u)",
+		"ORFIII.at (m3u4u)",
+		"ORFSPPL.at (m3u4u)",
+        "MSSport(DEL8DE).de2"
+   ]
     },
     {
-      "name": "Source 4 - Distro,Stirr,KableOne",
-      "url": "https://mdbass.github.io/extract-epg/epg.xml",
-      "format": "xml",
-      "prefix": "",
-      "channels": "*"
-    },
-    {
-      "name": "Source 5 - EPGenius 37",
+      "name": "Source 6 - EPGenius 37",
       "url": "https://github.com/ferteque/Curated-M3U-Repository/raw/refs/heads/main/epg37.xml.gz",
       "format": "gz",
       "prefix": "",
@@ -127,6 +173,17 @@
         "NFLNetwork.us12",
 		"ESPN2.us12",
         "MSSport(DEL8DE).de2"
+   ]
+    },
+    {
+      "name": "Source 7 - EPGenius 38",
+      "url": "https://github.com/ferteque/Curated-M3U-Repository/raw/refs/heads/main/epg38.xml.gz",
+      "format": "gz",
+      "prefix": "",
+      "channels": [
+        "NFL1Network.us12",
+		"ESPN12.us12",
+        "MS1Sport(DEL8DE).de2"
       ]
     }
   ]
